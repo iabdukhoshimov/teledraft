@@ -1,6 +1,4 @@
 // config/index.js
-require('dotenv').config();
+import 'dotenv/config';
 
-module.exports = {
-  BOT_TOKEN: process.env.BOT_TOKEN,
-};
+export const BOT_TOKEN = process.env.BOT_TOKEN;

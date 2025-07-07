@@ -1,14 +1,12 @@
 // bot/bot.js
-const TelegramBot = require('node-telegram-bot-api');
-const { BOT_TOKEN } = require('../config');
-const registerCommands = require('./handlers/messageHandler');
+import TelegramBot from 'node-telegram-bot-api';
+import { BOT_TOKEN } from '../config/index.js';
+import registerCommands from './handlers/messageHandler.js';
 
 let bot;
 
-const initBot = () => {
+export function initBot() {
   bot = new TelegramBot(BOT_TOKEN, { polling: true });
   console.log('🤖 TeleDraft bot started...');
   registerCommands(bot);
-};
-
-module.exports = { initBot };
+}
