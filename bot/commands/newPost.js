@@ -1,7 +1,7 @@
 // bot/commands/newPost.js
-import { setPost } from '../../db/lowdb.js';
+const { setPost } = require('../../db/lowdb');
 
-export default function newPost(bot) {
+module.exports = function newPost(bot) {
   bot.onText(/\/newpost/, async (msg) => {
     const chatId = msg.chat.id;
 
