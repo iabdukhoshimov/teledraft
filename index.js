@@ -1,6 +1,6 @@
 // index.js
-require('dotenv').config();
-const { initBot } = require('./bot/bot');
+import 'dotenv/config';
+import { initBot } from './bot/bot.js';
 
 // Start the bot
 initBot();
