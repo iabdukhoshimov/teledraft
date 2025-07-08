@@ -1,3 +1,15 @@
 {
-  "posts": {}
+  "posts": {
+    "video karta": "Видеокарта \n\nPalit Gaming Pro \nRTX 3080\nОбьем памяти 10Gb\nСостояние идеальное\nЗаводская пломба \n\n🛒Цена 340$\n⭐Гарантия месяц \nЕсть обмен",
+    "hello": {
+      "type": "gif",
+      "file_id": "CgACAgQAAxkBAAMyaGwvUSVMTmRArmNDS3rx7lc3VZcAAkQGAAKyhmxQkO_cAVzp9Rw2BA",
+      "caption": ""
+    },
+    "helo": {
+      "type": "photo",
+      "file_id": "AgACAgQAAxkBAAN6aG0VQH0I3YdzcKz2gGjnoNP9Em4AAnfIMRsfkGlTBOvo0cpG6IUBAAMCAAN5AAM2BA",
+      "caption": ""
+    }
+  }
 }

@@ -1,0 +1,5 @@
+{
+  "welcome": "👋 Welcome, {name}!\n\nUse /newpost to create a post.",
+  "language_set": "Language set successfully!",
+  "post_created": "✅ Post *{name}* created successfully!"
+}

@@ -1,3 +1,4 @@
+// handlers/messageHandler.js
 import start from '../commands/start.js';
 import newPost from '../commands/newPost.js';
 import listPosts from '../commands/listPosts.js';
